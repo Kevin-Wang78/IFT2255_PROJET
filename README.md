@@ -1,7 +1,10 @@
 
-# Projet dans le cadre du cours de IFT2255
+# MonCheminement - Plateforme Personnalisée de Planification des Études 
 
 ## Description
+
+Mon cheminement est une plateforme personnalisée qui planifie les études. En effet, il place l'étudiant au centre, et rassemble la composition d'un parcours, c'est-à-dire des cours, des projets, des postes en laboratoire, des stages, des séminaires, des concours, des équipes de recherche et des organisations partenaires. 
+
 
 
 
