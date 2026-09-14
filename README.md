@@ -1,17 +1,45 @@
 
 # MonCheminement - Plateforme Personnalisée de Planification des Études 
 
+Application web full-stack pour la planification des études.
+
 ## Description
 
 Mon cheminement est une plateforme personnalisée qui planifie les études. En effet, il place l'étudiant au centre, et rassemble la composition d'un parcours, c'est-à-dire des cours, des projets, des postes en laboratoire, des stages, des séminaires, des concours, des équipes de recherche et des organisations partenaires. 
 
+# Points clés
 
+* Organiser le choix des cours pour chaque session de l'étudiant.
+* Mettre en avant les tâches à accomplir.
+* Participer à des séminaires, des concours et des organisations partenaires.
+* Postuler dans des laboratoires et des stages.
+
+---
+
+## Technologies utilisées
+
+
+# Backend
+
+
+
+# Frontend
+
+---
+
+## Installation
 
 
 ---
 
-## Objectifs
+## Utilisation d'API
 
+
+---
+
+## État d'avancement
+
+Présentement, il n'y a aucun codage. 
 
 
 ---
@@ -19,53 +47,35 @@ Mon cheminement est une plateforme personnalisée qui planifie les études. En e
 ## Structure du projet
 
 ```text
-Projet/
+MonCheminement/
 │
 ├── figures/       # Figures générées
 ├── code/          # 
 ├── rapport/       # Rapport final
-└── README.md
+└── 
 ```
-
----
-
-## Prérequis
-
-Le projet a été développé avec **Etc**.
-
-### Packages principaux
-
-* ``
-
-
-
-
----
-
-## Données
-
-
----
-
-## Utilisation
-
-
----
-
-## Résultats
-
-
 
 ---
 
 ## Auteurs
 
+* Jimmy Pham ()
+* Noromihanta Raharinivo Raharison ()
+* Bing Shi ()
+* Kevin Wang (20292635)
 
+---
+
+## Répartition des tâches
 
 
 
 ---
 
-## Références principales
+## Licence
+
+Projet développé dans le cadre du cours de IFT2255 (Génie logiciel) à l'Université de Montréal (UdeM).
+
+---
 
 
