@@ -1,7 +1,7 @@
 
 # MonCheminement - Plateforme Personnalisée de Planification des Études 
 
-Application web full-stack pour la planification des études.
+Application web pour la planification des études d'un étudiant.
 
 ## Description
 
