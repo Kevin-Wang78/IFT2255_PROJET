@@ -1,6 +1,8 @@
 
 # MonCheminement - Plateforme Personnalisée de Planification des Études 
 
+Java 21 | Spring Boot | Next.js | 
+
 Application web pour la planification des études d'un étudiant.
 
 ## Description
