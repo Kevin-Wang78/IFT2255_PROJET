@@ -21,9 +21,17 @@ Mon cheminement est une plateforme personnalisée qui planifie les études. En e
 
 # Backend
 
+* Spring Boot
+* Quarkus
+* Micronaut
+
 
 
 # Frontend
+
+* React
+* Next.js avec TypeScript
+* Vue.js avec TypeScript
 
 ---
 
