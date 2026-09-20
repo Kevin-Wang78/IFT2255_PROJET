@@ -48,7 +48,7 @@ Cette section présente les principaux endpoints prévus pour l'API du projet Mo
 
 ### Compte et authentification (Pour se connecter au compte de l'étudiant)
 
-| Méthode | Endpoint              | Description                              |
+| Méthode | Point de terminaison              | Description                              |
 | ------- | --------------------- | ---------------------------------------- |
 | `POST`  | `/api/auth/login`     | Authentifier une personne étudiante      |
 | `POST`  | `/api/auth/logout`    | Fermer la session                        |
@@ -56,7 +56,7 @@ Cette section présente les principaux endpoints prévus pour l'API du projet Mo
 
 ### Cours et cheminement (Parcours de l'étudiant)
 
-| Méthode | Endpoint                          | Description                            |
+| Méthode | Point de terminaison                          | Description                            |
 | ------- | --------------------------------- | -------------------------------------- |
 | `GET`   | `/api/cours`                      | Consulter les cours disponibles de la session |
 | `GET`   | `/api/cours/{code}`               | Consulter les informations d'un cours  |
@@ -66,7 +66,7 @@ Cette section présente les principaux endpoints prévus pour l'API du projet Mo
 
 ### Planification
 
-| Méthode  | Endpoint                                   | Description                     |
+| Méthode  | Point de terminaison                                   | Description                     |
 | -------- | ------------------------------------------ | ------------------------------- |
 | `GET`    | `/api/etudiants/{id}/horaire`              | Consulter l'horaire             |
 | `POST`   | `/api/etudiants/{id}/horaire/cours`        | Ajouter un cours à l'horaire    |
@@ -75,14 +75,14 @@ Cette section présente les principaux endpoints prévus pour l'API du projet Mo
 
 ### Activités (Stages, séminaires, concours, etc)
 
-| Méthode | Endpoint              | Description                          |
+| Méthode | Point de terminaison              | Description                          |
 | ------- | --------------------- | ------------------------------------ |
 | `GET`   | `/api/activites`      | Consulter les activités disponibles  |
 | `GET`   | `/api/activites/{id}` | Consulter les détails d'une activité |
 
 ### Notifications par courriel
 
-| Méthode | Endpoint                     | Description                                      |
+| Méthode | Point de terminaison                     | Description                                      |
 | ------- | ---------------------------- | ------------------------------------------------ |
 | `POST`  | `/api/notifications/rappel`  | Envoyer un rappel concernant une date importante |
 
