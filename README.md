@@ -44,7 +44,7 @@ Mon cheminement est une plateforme personnalisée qui planifie les études. En e
 
 ## Utilisation d'API
 
-Cette section présente les principaux endpoints prévus pour l'API du projet Mon cheminement. Les données échangées avec l'API sont représentées notamment en format JSON.
+Cette section présente les principaux points de terminaison prévus pour l'API du projet Mon cheminement. Les données échangées avec l'API sont représentées notamment en format JSON.
 
 ### Compte et authentification (Pour se connecter au compte de l'étudiant)
 
