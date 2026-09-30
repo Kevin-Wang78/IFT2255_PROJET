@@ -24,20 +24,25 @@ Mon cheminement est une plateforme personnalisée qui planifie les études. En e
 
 ### Backend
 
-* Java
-
-
+* Java 21
+* Spring Boot
 
 ### Frontend
 
 * JavaScript
 * React
-* Next.js avec TypeScript
-* CSS
+* CSS3
+* HTML5
+
+### Base de données
+
+* MySQL
 
 ---
 
 ## Installation
+
+Le prototype est actuellement en cours de développement. Les instructions d'installation et de lancement seront ajoutées dans une prochaine version du projet, lorsque le prototype sera disponible.
 
 
 ---
@@ -73,9 +78,9 @@ MonCheminement/
 
 ## Auteurs
 
-* Jimmy Pham ()
-* Noromihanta Raharinivo Raharison ()
-* Bing Shi ()
+* Jimmy Pham (20347232)
+* Noromihanta Raharinivo Raharison (20312477)
+* Bing Shi (20088703)
 * Kevin Wang (20292635)
 
 ---
