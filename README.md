@@ -95,6 +95,6 @@ Projet développé dans le cadre du cours de IFT2255 (Génie logiciel) à l'Univ
 
 ---
 
-# Lien de la conception de l'interface
+## Lien de la conception de l'interface
 
 [Conception de l'interface: ](app_demo.pdf)
