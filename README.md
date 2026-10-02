@@ -44,7 +44,6 @@ Mon cheminement est une plateforme personnalisée qui planifie les études. En e
 
 Le prototype est actuellement en cours de développement. Les instructions d'installation et de lancement seront ajoutées dans une prochaine version du projet, lorsque le prototype sera disponible.
 
-
 ---
 
 ## Outils d'assistance logicielle 
@@ -58,21 +57,20 @@ Le prototype est actuellement en cours de développement. Les instructions d'ins
 
 ## État d'avancement
 
-Présentement, il n'y a aucun codage. 
 
+### Fonctionnel
 
----
+* Aucun élément fonctionnel n'est actuellement implémenté.
 
-## Structure du projet
+### Simulé
 
-```text
-MonCheminement/
-│
-├── figures/       # Figures générées
-├── code/          # 
-├── rapport/       # Rapport final
-└── 
-```
+* Les interfaces et les principaux parcours de l'application sont présentés sous forme de maquettes afin de démontrer les choix de conception.
+
+### À faire
+* Implémenter le frontend.
+* Implémenter le backend avec Spring Boot et Java.
+* Mettre en place la base de données MySQL.
+* Relier les différentes composantes de l'application.
 
 ---
 
