@@ -21,7 +21,6 @@ Mon cheminement est une plateforme personnalisée qui planifie les études. En e
 
 ## Technologies utilisées
 
-
 ### Backend
 
 * Java 21
@@ -33,10 +32,6 @@ Mon cheminement est une plateforme personnalisée qui planifie les études. En e
 * React
 * CSS3
 * HTML5
-
-### Base de données
-
-* MySQL
 
 ---
 
@@ -52,6 +47,7 @@ Le prototype est actuellement en cours de développement. Les instructions d'ins
 * GitHub : utilisé pour l'hébergement du projet, la gestion des versions et le travail collaboratif.
 * Visual Studio Code : utilisé pour la rédaction et la modification des fichiers de code et de documentation.
 * draw.io : utilisé pour la création des diagrammes de UML du projet.
+* PowerPoint : utilisé pour la conception d'interface
 
 ---
 
@@ -64,7 +60,7 @@ Le prototype est actuellement en cours de développement. Les instructions d'ins
 
 ### Simulé
 
-* Les interfaces et les principaux parcours de l'application sont présentés sous forme de maquettes afin de démontrer les choix de conception.
+* Les interfaces et les principaux parcours de l'application sont présentés sous forme de maquettes dans le rapport afin de démontrer les choix de conception.
 
 ### À faire
 * Implémenter le frontend.
@@ -83,8 +79,12 @@ Le prototype est actuellement en cours de développement. Les instructions d'ins
 
 ---
 
-## Répartition des tâches
+## Répartition des tâches 
 
+* Jimmy Pham : Réalisation des diagrammes de niveau 1 et 2 de C4, correction du français dans le rapport, 
+* Noromihanta Raharinivo Raharison : Correction du français dans le rapport, gestion des questions, réalisation des diagrammes de flux d'activité
+* Bing Shi : Conception d'interface, réalisation du diagramme de cas d'utilisation, réalisation des diagrammes de flux d'activité, simplification des fonctionnalités du prototype
+* Kevin Wang : Grande partie de la rédaction du rapport d'analyse, réalisation d'un des diagrammes de flux d'activité, gestion des questions
 
 
 ---
