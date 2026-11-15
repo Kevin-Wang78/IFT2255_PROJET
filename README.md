@@ -90,7 +90,7 @@ Le prototype est actuellement en cours de développement. Les instructions d'ins
 
 ## Licence
 
-Projet développé dans le cadre du cours de IFT2255 (Génie logiciel) à l'Université de Montréal (UdeM).
+Projet développé dans le cadre du cours de IFT2255 (Génie logiciel) à l'Université de Montréal (UdeM) dans la session d'automne 2026.
 
 ---
 
