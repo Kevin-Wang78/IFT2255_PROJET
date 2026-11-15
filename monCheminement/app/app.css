@@ -13,3 +13,40 @@ body {
     color-scheme: dark;
   }
 }
+
+h1 {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.introduction button {
+    display: block;
+    width: fit-content;
+    margin: 0 auto 20px auto;
+    text-align: center;
+    border: 2px solid black;
+    padding: 10px 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+span {
+    display: block;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+main {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.donnees {
+  text-align: center;
+
+}
