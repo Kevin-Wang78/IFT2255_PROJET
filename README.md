@@ -56,7 +56,7 @@ Le prototype est actuellement en cours de développement. Les instructions d'ins
 
 ### Fonctionnel
 
-* Aucun élément fonctionnel n'est actuellement implémenté.
+* Seulement la première page du système fonctionne partiellement.
 
 ### Simulé
 
@@ -81,11 +81,10 @@ Le prototype est actuellement en cours de développement. Les instructions d'ins
 
 ## Répartition des tâches 
 
-* Jimmy Pham : Réalisation des diagrammes de niveau 1 et 2 de C4, correction du français dans le rapport, 
-* Noromihanta Raharinivo Raharison : Correction du français dans le rapport, gestion des questions, réalisation des diagrammes de flux d'activité
-* Bing Shi : Conception d'interface, réalisation du diagramme de cas d'utilisation, réalisation des diagrammes de flux d'activité, simplification des fonctionnalités du prototype
-* Kevin Wang : Grande partie de la rédaction du rapport d'analyse, réalisation d'un des diagrammes de flux d'activité, gestion des questions
-
+* Jimmy Pham : Réalisation des diagrammes des trois niveaux du modèle C4, correction du français dans le rapport, 
+* Noromihanta Raharinivo Raharison : Correction du français dans le rapport, gestion des questions, réalisation des diagrammes de flux d'activité, réalisation des différents tests pour notre système
+* Bing Shi : Conception d'interface, réalisation du diagramme de cas d'utilisation, réalisation des diagrammes de flux d'activité, simplification des fonctionnalités du prototype, réalisation du diagramme de classes, implémentation de l'architecture logicielle
+* Kevin Wang : Grande partie de la rédaction du rapport d'analyse, réalisation d'un des diagrammes de flux d'activité, gestion des questions, réalisation du diagramme de classes, réalisation du modèle de données, début de réalisation de la programmation (frontend)
 
 ---
 
