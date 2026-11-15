@@ -32,6 +32,7 @@ Mon cheminement est une plateforme personnalisée qui planifie les études. En e
 * React
 * CSS3
 * HTML5
+* TypeScript
    
 ---
 
