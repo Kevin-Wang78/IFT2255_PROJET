@@ -50,3 +50,11 @@ main {
   text-align: center;
 
 }
+
+select {
+  @apply h-24 w-full
+}
+
+option {
+  @apply text-center
+}

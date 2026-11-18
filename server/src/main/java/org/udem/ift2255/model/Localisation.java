@@ -1,4 +1,4 @@
-package org.udem.ift2255;
+package org.udem.ift2255.model;
 import java.time.LocalDate;
 
 public class Localisation {

@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Maven: org.eclipse.jetty.ee10:jetty-ee10-plus:12.1.14" type="java-imported" external-system-id="Maven">
+    <properties groupId="org.eclipse.jetty.ee10" artifactId="jetty-ee10-plus" version="12.1.14" baseVersion="12.1.14" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/ee10/jetty-ee10-plus/12.1.14/jetty-ee10-plus-12.1.14.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/ee10/jetty-ee10-plus/12.1.14/jetty-ee10-plus-12.1.14-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/ee10/jetty-ee10-plus/12.1.14/jetty-ee10-plus-12.1.14-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

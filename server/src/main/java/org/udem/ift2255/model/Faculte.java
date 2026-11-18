@@ -1,4 +1,4 @@
-package org.udem.ift2255;
+package org.udem.ift2255.model;
 
 public enum Faculte {
     AMENAGEMENT,

@@ -1,4 +1,4 @@
-package org.udem.ift2255;
+package org;
 import io.javalin.Javalin;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
