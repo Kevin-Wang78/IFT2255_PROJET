@@ -1,41 +1,25 @@
 import { useEffect, useState } from "react";
 
 export function Welcome() {
-  const apiUrl = import.meta.env.VITE_API_BASE_URL;
+  const apiUrl = import.meta.env.VITE_BASE_URL;
   const [selection, setSelection] = useState("");
   const [programs, setPrograms] = useState([]);
 
     useEffect(()=> {
       const fetchProgrames = async () => {
         const res = await fetch(
-          apiUrl + "/faculties"
+          apiUrl + "/planification/programs"
         )
         if (res.ok) {
-          // extract list of programes
           const returnData = await res.json();
-
-          let progs = [];
-          // convertir les données en type désirable.
-          // cette conversion doit être faire dans le server, ici, il est juste un example comment fetch data
-          returnData.forEach((faculty) => {
-            if (faculty.departments) {
-              faculty.departments.forEach((department) => {
-                if (department.programs) {
-                  department.programs.forEach((program)=>{
-                    progs.push({
-                      id: program.id,
-                      desc: program.name
-                    })
-
-                  })
-                }
-              })
-            }
-          })
-
-          progs.sort((a, b) => a.id.localeCompare(b.id));
-          // set programs
-          setPrograms(progs);
+          console.log(returnData.length);
+          if (returnData.success){
+            const progs = returnData.data;
+            progs.sort((a, b) => a.id.localeCompare(b.id));
+            setPrograms(progs);
+          }
+        } else {
+          setPrograms([]);
         }
       }
       fetchProgrames();
@@ -53,7 +37,7 @@ export function Welcome() {
             <select>
               <option className="text-center">Choisir votre programme</option>
               {programs && programs.map(program => (
-                <option key={program.id} value={program.id}>{ program.id + " - " + program.desc}</option>
+                <option key={program.id} value={program.id}>{ program.id + " - " + program.description}</option>
               ))}
             </select>
           </div>

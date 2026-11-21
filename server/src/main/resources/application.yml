@@ -1,0 +1,3 @@
+baseUrls:
+  udem: https://planifium-api.onrender.com/api/v1
+clientSideUrls: http://localhost:5173/
