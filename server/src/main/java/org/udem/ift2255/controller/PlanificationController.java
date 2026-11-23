@@ -2,6 +2,7 @@ package org.udem.ift2255.controller;
 
 import io.javalin.http.Context;
 import org.udem.ift2255.DTO.ProgramBaseDTO;
+import org.udem.ift2255.model.GroupeCours;
 import org.udem.ift2255.service.PlanificationService;
 import org.udem.ift2255.utils.ResultResponse;
 import java.util.List;
@@ -26,6 +27,23 @@ public class PlanificationController {
             ctx.status(404);
         }
 
+    }
+
+    public final void getScheduleList(Context ctx, String[] cours, String session) {
+        List<GroupeCours> returnList = planificationService.getScheduleList(cours, session);
+        ResultResponse<List<GroupeCours>> result = new ResultResponse<>();
+
+        if (!returnList.isEmpty()) {
+            result.setSuccess(true);
+            result.setData(returnList);
+            ctx.json(result);
+            ctx.status(200);
+        } else {
+            result.setSuccess(false);
+            result.setMessage("Schedules not found");
+            ctx.json(result);
+            ctx.status(404);
+        }
     }
 
     public final void createPlannification(Context ctx) {
