@@ -1,14 +1,18 @@
 package org.udem.ift2255;
-import com.fasterxml.jackson.annotation.JsonInclude;
-import io.javalin.Javalin;
-import io.javalin.json.JavalinJackson3;
+import org.udem.ift2255.config.ConfigLoader;
 import org.udem.ift2255.controller.PlanificationController;
 import org.udem.ift2255.controller.SearchController;
 import org.udem.ift2255.controller.UtilisateurController;
-import org.udem.ift2255.config.ConfigLoader;
 
-import static io.javalin.apibuilder.ApiBuilder.*;
+import com.fasterxml.jackson.annotation.JsonInclude;
 
+import io.javalin.Javalin;
+import static io.javalin.apibuilder.ApiBuilder.get;
+import static io.javalin.apibuilder.ApiBuilder.path;
+import static io.javalin.apibuilder.ApiBuilder.post;
+import io.javalin.json.JavalinJackson3;
+
+// Pour faire run le backend, juste faire run le Main dans Main.java
 public class Main {
     static void main() {
 

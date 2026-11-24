@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import ReleveNotes from "./ReleveNotes";
 
 export function Welcome() {
   const apiUrl = import.meta.env.VITE_BASE_URL;
@@ -41,32 +42,18 @@ export function Welcome() {
               ))}
             </select>
           </div>
-          
-
-{/* 
-          
-          <button onClick={() => setSelection(selection === "programme" ? "" : "programme")}>
-            Choisir votre programme
-          </button> */}
-
-          {selection === "programme" && (
-            <div className="donnees">
-              <p>Informatique</p>
-              <p>Mathématiques et informatique</p>
-              <p>Mathématiques</p>
-            </div>
-          )}
 
           <button onClick={() => setSelection(selection === "anneeAdmission" ? "" : "anneeAdmission")}>
             Année d'admission
           </button>
 
           {selection === "anneeAdmission" && (
-            <div className="donnees">
-              <p>2024</p>
-              <p>2025</p>
-              <p>2026</p>
-            </div>
+            <select id="anneeAdmissions">
+            <option value=""> Année d'admission </option>
+            <option value="Automne 2027">Automne 2027</option>
+            <option value="Hiver 2028">Hiver 2028</option>
+            <option value="Ete 2028">Ete 2028</option>
+            </select>
           )}
 
           <button onClick={() => setSelection(selection === "releveNotes" ? "" : "releveNotes")}>
@@ -74,9 +61,9 @@ export function Welcome() {
           </button>
 
           {selection === "releveNotes" && (
-            <div className="donnees">
-              <p>Entrer vos notes manuellement.</p>
-            </div>
+              <div className="releveNote">
+                <ReleveNotes />
+              </div>
           )}
 
           <span> OU </span>
@@ -86,11 +73,14 @@ export function Welcome() {
           </button>
 
           {selection === "televersement" && (
-            <div className="donnees">
-              <p>Sélectionner un fichier à téléverser.</p>
-            </div>
+            <>
+            <div class="forme-groupe">
+              <label htmlFor="document">Téléversez votre releve de notes</label>
+              <input className="forme-telechargement" type="file" id="document" accept=".json"/>
+            </div>  
+            </>
           )}
-
+  
         </nav>
       </header>
     </>

@@ -58,3 +58,14 @@ select {
 option {
   @apply text-center
 }
+
+.forme-groupe {
+  display: block;
+  text-align: center;
+}
+
+.forme-telechargement:hover {
+  cursor: pointer;
+  font-weight: bold;
+
+}
