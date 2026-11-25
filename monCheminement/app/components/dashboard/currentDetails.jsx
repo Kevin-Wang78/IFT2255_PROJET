@@ -4,7 +4,7 @@ import DetailOfBlocks from "~/components/dashboard/detailOfBlocks.jsx";
 export default function CurrentDetails () {
     return (
         <div className="flex flex-col h-full test-border">
-            <div className="h-20 test-border">
+            <div className="h-auto test-border">
                 <CurrentSemester />
             </div>
             <div className="flex-1 h-full test-border">

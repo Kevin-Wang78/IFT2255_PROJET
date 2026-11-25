@@ -1,7 +1,7 @@
 export default function News() {
     return (
         <div className="flex-1">
-            news
+            <strong>Nouvelles & A faire</strong>
         </div>
     )
 }

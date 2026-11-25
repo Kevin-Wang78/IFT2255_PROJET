@@ -1,7 +1,10 @@
 export default function DetailOfBlocks() {
     return (
         <div>
-            detail of blocks
+            <strong>Détails</strong>
+            <main>
+                <p>Selon les blocs de programmes</p>
+            </main>
         </div>
     )
 }
