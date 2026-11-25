@@ -97,7 +97,7 @@ const AddTranscript = () => {
 
                 <button id="bouton-dashboard"
                     type="button"
-                    onClick={() => navigate("/profile/dashboard")}
+                    onClick={() => navigate("/dashboard")}
                 >
                     Continuer
                 </button>

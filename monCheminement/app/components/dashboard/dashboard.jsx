@@ -6,7 +6,7 @@ function Dashboard() {
 
             <div className="dashboard-content flex flex-col w-full h-dvh ">
 
-                <nav class="navigateur-dashboard">
+                <nav className="navigateur-dashboard">
                     <h2>Menu</h2>
                     <ul>
                             <li id="sessions-bouton">Toutes les sessions</li>
