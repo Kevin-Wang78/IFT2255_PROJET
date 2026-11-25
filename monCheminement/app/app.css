@@ -69,3 +69,13 @@ option {
   font-weight: bold;
 
 }
+
+#add-transcript {
+  text-align: center;
+}
+
+#bouton-ajouterCours {
+  cursor: pointer;
+  font-weight: bold;
+  color: green;
+}
