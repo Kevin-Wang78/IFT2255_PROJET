@@ -20,8 +20,10 @@ function Dashboard() {
                 <main>
                     <section>
                         <h2>Résumé</h2>
-                    </section>
+                    </section> 
                 </main>
+
+                {/* Il me reste a faire les differentes sections du dashboard */}
 
             </div>
 
