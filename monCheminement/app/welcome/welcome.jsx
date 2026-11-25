@@ -58,15 +58,11 @@ export function Welcome() {
             </select>
           )}
 
+          {/* navigate permet de changer de page  */} 
           <button onClick={() => navigate("/profile/addTranscript")}>
             Entrez votre relevé de notes
           </button>
 
-          {selection === "releveNotes" && (
-              <div className="releveNote">
-                <ReleveNotes />
-              </div>
-          )}
 
           <span> OU </span>
 
