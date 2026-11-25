@@ -131,6 +131,20 @@ nav {
   background-color: #A9A9A9;
 }
 
+.grille-complet {
+
+  display: grid;
+  max-width: 1000px;
+  margin: 0 auto;
+  /* 3 colonnes de largeur égale (ou ajustable : ex. 1.2fr 1fr 0.9fr) */
+  grid-template-columns: repeat(3, 1fr);
+  /* 1 ligne pour l'en-tête + 4 sous-lignes pour gérer les hauteurs asymétriques */
+  grid-template-rows: auto repeat(4, minmax(95px, auto));
+  
+  /* Bordure extérieure façon wireframe / tableau structuré */
+  border: 2px solid #1f2937;
+}
+
 
 
 
