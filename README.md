@@ -1,5 +1,5 @@
 
-![Java 21](https://img.shields.io/badge/Java-21-orange)
+![Java 25](https://img.shields.io/badge/Java-25-orange)
 
 # MonCheminement - Plateforme Personnalisée de Planification des Études 
 
@@ -23,7 +23,7 @@ Mon cheminement est une plateforme personnalisée qui planifie les études. En e
 
 ### Backend
 
-* Java 21
+* Java 25
 * Spring Boot
 
 ### Frontend
