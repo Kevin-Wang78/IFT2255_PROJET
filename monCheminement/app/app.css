@@ -42,7 +42,7 @@ span {
 }
 
 main {
-  margin-top: 30px;
+  /*margin-top: 30px;*/
   text-align: center;
 }
 
@@ -57,6 +57,10 @@ select {
 
 option {
   @apply text-center
+}
+
+.test-border {
+    @apply border-amber-500 border-1
 }
 
 .forme-groupe {
@@ -118,3 +122,4 @@ nav {
 #sessions-bouton {
   margin-left: 20px;
 }
+

@@ -49,15 +49,6 @@ export function Welcome() {
             Année d'admission
           </button>
 
-          {selection === "anneeAdmission" && (
-            <select id="anneeAdmissions">
-            <option value=""> Année d'admission </option>
-            <option value="Automne 2027">Automne 2027</option>
-            <option value="Hiver 2028">Hiver 2028</option>
-            <option value="Ete 2028">Ete 2028</option>
-            </select>
-          )}
-
           {/* navigate permet de changer de page  */} 
           <button onClick={() => navigate("/profile/addTranscript")}>
             Entrez votre relevé de notes

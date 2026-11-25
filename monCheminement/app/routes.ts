@@ -5,6 +5,12 @@ export default [
     route("profile", "./components/profile/profile.jsx", [
         index("./components/profile/configuration.jsx"),
         route("addTranscript", "./components/profile/addTranscript.jsx"),
-        route("dashboard", "./components/profile/dashboard.jsx")
+    ]),
+    route("dashboard", "./components/dashboard/dashboard.jsx", [
+        route("", "./components/dashboard/dashboardSummary.jsx", [
+            index("./components/dashboard/currentDetails.jsx"),
+            route("myPlanification", "./components/planification/myPlanification.jsx"),
+        ]),
+        route("planification", "./components/planification/planification.jsx")
     ])
 ] satisfies RouteConfig;
