@@ -1,8 +1,10 @@
+import {Outlet} from "react-router";
+
 function Dashboard() {
     return (
-        <div className="dashboard-container">
+        <div className="dashboard-container w-full h-dvh ">
 
-            <div className="dashboard-content">
+            <div className="dashboard-content flex flex-col w-full h-dvh ">
 
                 <nav class="navigateur-dashboard">
                     <h2>Menu</h2>
@@ -17,10 +19,8 @@ function Dashboard() {
                     </ul>
                 </nav>
 
-                <main>
-                    <section>
-                        <h2>Résumé</h2>
-                    </section> 
+                <main className="flex-1">
+                    <Outlet />
                 </main>
 
                 {/* Il me reste a faire les differentes sections du dashboard */}
