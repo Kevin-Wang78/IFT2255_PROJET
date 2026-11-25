@@ -1,9 +1,9 @@
-import { Outlet } from "react-router"
+import { Outlet } from "react-router";
 
-const Profile = () => {
+export default function Profile() {
     return (
-        <Outlet />
-    )
+        <>
+            <Outlet />
+        </>
+    );
 }
-
-export default Profile;

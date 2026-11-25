@@ -79,3 +79,7 @@ option {
   font-weight: bold;
   color: green;
 }
+
+#bouton-dashboard {
+  text-align: center;
+}

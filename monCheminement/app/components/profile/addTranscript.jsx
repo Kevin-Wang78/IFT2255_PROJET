@@ -1,7 +1,8 @@
-
+import { useNavigate } from "react-router";
 import { useState } from "react";
 
 const AddTranscript = () => {
+    const navigate = useNavigate();
 
     const [cours, setCours] = useState([
         { nomCours: "", codeCours: "", note: "", gpa: "" }
@@ -92,8 +93,13 @@ const AddTranscript = () => {
                     + Ajouter un cours
                 </button>
 
-                <button type="button" onClick={supprimerCours}>
-                    - Supprimer un cours
+                <br />
+
+                <button id="bouton-dashboard"
+                    type="button"
+                    onClick={() => navigate("/profile/dashboard")}
+                >
+                    Continuer
                 </button>
 
             </form>
