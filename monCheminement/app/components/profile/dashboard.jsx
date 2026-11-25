@@ -1,7 +1,27 @@
-const Dashboard = () => {
+function Dashboard() {
     return (
-        <h1>Bienvenue dans votre tableau de bord !</h1>
+        <div className="dashboard-container">
+
+            <div className="dashboard-content">
+
+                <nav>
+                    <h2>Menu</h2>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </nav>
+
+                <main>
+                    
+                </main>
+
+            </div>
+
+
+        </div>
     );
-};
+}
 
 export default Dashboard;
