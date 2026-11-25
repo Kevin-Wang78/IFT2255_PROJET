@@ -1,10 +1,12 @@
 import { useEffect, useState } from "react";
 import ReleveNotes from "./ReleveNotes";
+import { useNavigate } from "react-router";
 
 export function Welcome() {
   const apiUrl = import.meta.env.VITE_BASE_URL;
   const [selection, setSelection] = useState("");
   const [programs, setPrograms] = useState([]);
+  const navigate = useNavigate();
 
     useEffect(()=> {
       const fetchProgrames = async () => {
@@ -56,7 +58,7 @@ export function Welcome() {
             </select>
           )}
 
-          <button onClick={() => setSelection(selection === "releveNotes" ? "" : "releveNotes")}>
+          <button onClick={() => navigate("/profile/addTranscript")}>
             Entrez votre relevé de notes
           </button>
 
